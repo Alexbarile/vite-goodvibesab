@@ -10,44 +10,19 @@ export default{
                     routeName: 'home',
                 },
                 {
-                    label: 'Portfolio',
-                    routeName: 'portfolio',
-                },
-                {
                     label: 'About me',
                     routeName: 'about_me',
+                },
+                {
+                    label: 'Video',
+                    routeName: 'video',
                 },
                 {
                     label: 'Contact',
                     routeName: 'contacts',
                 },
             ],
-            menuCategory: [
-                {
-                    label: 'People',
-                    routeName: 'people',
-                },
-                {
-                    label: 'Hospitality',
-                    routeName: 'hospitality',
-                },
-                {
-                    label: 'Wedding',
-                    routeName: 'wedding',
-                },
-                {
-                    label: 'Commercial',
-                    routeName: 'commercial',
-                },
-                {
-                    label: 'Events',
-                    routeName: 'events',
-                },
-                {
-                    label: 'Street',
-                    routeName: 'street',
-                },
-            ]
+            
         }
     },
 
@@ -92,11 +67,6 @@ export default{
                                         {{ item.label }}
                                     </router-link>
                                 </li>
-                                <li class="d-none" v-for="(item, index) in menuCategory" :key="index">
-                                    <router-link :to="{name: item.routeName}" class="list-item">
-                                        {{ item.label }}
-                                    </router-link>
-                                </li>
                             </ul>
                         </nav>
                     </div>
@@ -111,11 +81,6 @@ export default{
                             </label>
                             <ul class="menu" v-show="isMenuOpen">
                                 <li v-for="(item, index) in menuItems" :key="index">
-                                    <router-link :to="{name: item.routeName}" class="list-item">
-                                        {{ item.label }}
-                                    </router-link>
-                                </li>
-                                <li class="d-none" v-for="(item, index) in menuCategory" :key="index">
                                     <router-link :to="{name: item.routeName}" class="list-item">
                                         {{ item.label }}
                                     </router-link>

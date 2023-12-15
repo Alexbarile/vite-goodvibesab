@@ -1,6 +1,6 @@
 <script>
 export default{
-    name: "Portfolio",
+    name: "Video",
 
     data() {
         return {
@@ -52,10 +52,11 @@ export default{
     <section>
         <div class="container">
             <div class="row">
+                <h1>prova</h1>
 
                 <!-- CARD V-FOR -->
 
-                <div v-for="(item, index) in menuItems" :key="index" class="col-lg-4 col-sm-12 p-1" data-aos="fade-up">
+                <!-- <div v-for="(item, index) in menuItems" :key="index" class="col-lg-4 col-sm-12 p-1" data-aos="fade-up"> -->
 
                     <!-- click su tutta l'immagine -->
 
@@ -63,7 +64,7 @@ export default{
                         
                     </router-link> -->
                     
-                    <div class="hero-image" :style="{ backgroundImage: 'url(' + getImagePath(item.image) + ')' }">
+                    <!-- <div class="hero-image" :style="{ backgroundImage: 'url(' + getImagePath(item.image) + ')' }">
                         <div class="hero-text">
                             <h3 class="pb-3">{{item.category}}</h3>
                             <router-link :to="{name: item.routeName}">
@@ -71,7 +72,7 @@ export default{
                             </router-link>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
