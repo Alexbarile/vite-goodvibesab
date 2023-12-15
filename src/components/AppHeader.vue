@@ -6,23 +6,22 @@ export default{
             isMenuOpen: false,
             menuItems: [
                 {
-                    label: 'Home',
+                    label: 'HOME',
                     routeName: 'home',
                 },
                 {
-                    label: 'About me',
+                    label: 'ABOUT ME',
                     routeName: 'about_me',
                 },
                 {
-                    label: 'Video',
+                    label: 'VIDEO',
                     routeName: 'video',
                 },
                 {
-                    label: 'Contact',
+                    label: 'CONTACT',
                     routeName: 'contacts',
                 },
             ],
-            
         }
     },
 
@@ -53,7 +52,7 @@ export default{
                 <div class="row d-flex justify-content-between align-items-center">
                     <div class="col">
                         <router-link :to="{name: 'home'}" class="logo">
-                            <h1>Wander with Kri</h1>
+                            <img src="../../public/img/goodvibes.png" alt="">
                         </router-link>
                     </div>
                     
@@ -95,17 +94,20 @@ export default{
 
 <style lang="scss" scoped>
 @use '../styles/app.scss' as *;
+
     header{
         .row{
             padding: 10px;
             .col{
 
                 .logo{
-                    text-decoration: none;
-                    color: black;
-                    h1{
-                        font-size: 25px;
-                        margin: 0 !important;
+                    img{
+                        width: 20%;
+                    }
+                    @media (max-width: 768px) {
+                        img{
+                            width: 40%;
+                        }
                     }
                 }
 
@@ -117,6 +119,7 @@ export default{
 
                     li{
                         padding: 15px;
+                        font-weight: 700;
                         .list-item{
                             text-decoration: none;
                             color: black;
@@ -124,16 +127,9 @@ export default{
                             transition: 0.3s;
                             
                             &:hover{
-                                color: gray;
+                                color: red;
                             }
                         }
-                    }
-                }
-
-                @media (max-width: 768px) {
-                    .logo{
-                        display: flex;
-                        justify-content: center;
                     }
                 }
 
