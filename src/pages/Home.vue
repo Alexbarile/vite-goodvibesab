@@ -8,7 +8,14 @@
     <main>
         <div class="container-100">
             <div class="row">
-                <h1>ciao</h1>
+                <div class="col">
+                    <h1>ciao</h1>
+                    <video autoplay playsinline preload muted loop>
+                        <source src="../../public/video/gv-2.mp4" type="video/mp4">
+                        
+                    </video>
+
+                </div>
                 <!-- <div class="col-12 p-0" data-aos="fade-in">
                     <div class="hero-img">
                         <div class="hero-text">
@@ -35,6 +42,14 @@ main{
         .row{
             width: 100%;
             margin: 0 auto;
+
+            .col{
+                padding: 0 !important;
+                
+                video{
+                    width: 100%;
+                }
+            }
     
             .hero-img{
                 background-image: url("../../public/img/hero.JPG");

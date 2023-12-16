@@ -102,7 +102,7 @@ export default{
 
                 .logo{
                     img{
-                        width: 20%;
+                        width: 18%;
                     }
                     @media (max-width: 768px) {
                         img{
