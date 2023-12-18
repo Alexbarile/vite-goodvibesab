@@ -69,6 +69,15 @@ main{
                     background-size: cover;
                     position: relative;
                 }
+
+                @media (max-width: 992px) {
+    
+                    .hero-bg{
+                        width: 100%;
+                        height: 1000px;
+                    }
+  
+                }
             
                 .hero-img{
                     text-align: center;
@@ -83,13 +92,25 @@ main{
                             width: 50%;
                         }
                     }
-
+                    
                     .name{
                         img{
                             width: 35%;
                         }
-                    }        
-                }    
+                    }
+
+                    @media (max-width: 992px) {
+    
+                        .main img{
+                            width: 100%;
+                        }
+
+                        .name img{
+                            width: 80%;
+                        }
+                    }
+                }
+                
             }
         }
     }

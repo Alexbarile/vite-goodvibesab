@@ -35,11 +35,38 @@ export default {
             </div>
         </div>
     </div>
+    <div class="bg">
+        <div class="container">
+            <div class="row d-flex align-items-center py-5">
+                    
+                    <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-right">
+                        <div class="hero-about">
+                            <img src="../../public/img/gv-lake.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 bg-copy" data-aos="fade-left">
+                        <div class="copy">
+                            <h1>#goodvibesab
+                            </h1>
+                            <form class="form d-none">
+                                <router-link :to="{name: 'thank-you'}" class="text-center">
+                                    <button class="submit">
+                                        Invia
+                                    </button>
+                                </router-link>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
 </template>
 
 
 <style lang="scss" scoped>
 @use '../styles/app.scss' as *;
+
+
 
 .container-100{
     width: 100%;
@@ -54,7 +81,7 @@ export default {
             
             .hero-bg{
                 width: 100%;
-                height: 73vh;
+                
                 background-color: black;
 
                 .info{
@@ -119,9 +146,81 @@ export default {
                         padding: 40px 0 0 0;
                     }
                 }
+
+                .extra{
+                    image{
+                        img{
+                            width: 50%;
+                        }
+                    }
+                }
+
+                h1{
+                    color: red;
+                    font-size: 60px;
+                    font-weight: 700;
+                }
             }
         }
     }
+
 }
+
+.bg{
+    background-color: black;
+
+
+    .row{
+    
+        background-color: black;
+    
+        .col-lg-6, .col-md-6{
+            padding: 0px !important;
+            
+            .hero-about{
+                img{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 10px;
+                }
+            }
+        }
+    
+        .bg-copy{
+            
+    
+            .copy{
+                padding: 150px 120px;
+    
+                h1{
+                    font-weight: 700;
+                    font-size: 60px;
+                    line-height: 55px;
+                    color: red;
+                }
+    
+                
+                
+    
+                @media (max-width: 992px) {
+                    h1{
+                        font-size: 50px;
+                    }
+                    h2{
+                        font-size: 35px;
+                    }
+                }
+            }
+    
+            @media (max-width: 992px) {
+                .copy{
+                    padding: 120px 50px;
+                }
+            }       
+        }
+    }
+}
+
+
     
 </style>
