@@ -9,23 +9,23 @@
         <div class="container-100">
             <div class="row">
                 <div class="col">
-                    <h1>ciao</h1>
-                    <video autoplay playsinline preload muted loop>
-                        <source src="../../public/video/gv-2.mp4" type="video/mp4">
-                        
-                    </video>
-
-                </div>
-                <!-- <div class="col-12 p-0" data-aos="fade-in">
-                    <div class="hero-img">
-                        <div class="hero-text">
-                            <h4 data-aos="fade-up" class="pb-4">Photography</h4>
-                            <router-link :to="{name: 'portfolio'}">
-                                <button data-aos="fade-up">SEE</button>
+                    <div class="hero-bg">
+                        <div data-aos="fade-up" class="hero-img">
+                            <router-link :to="{name: 'contacts'}">
+                                <div class="main">
+                                    <img src="../../public/img/goodvibes-w.png" alt="">
+                                </div>
+                                <div class="name">
+                                    <img src="../../public/img/alebar-w.png" alt="">
+                                </div>
                             </router-link>
                         </div>
                     </div>
-                </div> -->
+                    
+                    <!-- <video autoplay playsinline preload muted loop>
+                        <source src="../../public/video/IMG_2280.MOV" type="video/mp4">
+                    </video> -->
+                </div>
             </div>
         </div>
     </main>
@@ -45,52 +45,53 @@ main{
 
             .col{
                 padding: 0 !important;
+
+                // .hero{
+                //     img{
+                //         width: 100%;
+                //         height: 1600px;
+                //         object-fit: cover;
+                //         object-position: bottom;
+                //     }
+                // }
                 
-                video{
-                    width: 100%;
+                // video{
+                //     width: 100%;
+                //     display: block;
+                //     margin: 0 auto;
+                // }
+
+                .hero-bg{
+                    background-image: url("../../public/img/DSCF3328.JPG");
+                    height: 1600px;
+                    background-position: bottom;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    position: relative;
                 }
-            }
-    
-            .hero-img{
-                background-image: url("../../public/img/hero.JPG");
-                background-color: #cccccc;
-                height: 1000px;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                position: relative;
-            }
-        
-            .hero-text{
-                text-align: center;
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                color: white;
-        
-                h4{
-                    text-transform: uppercase;
-                    font-size: 25px;
-                    font-weight: 400;
-                    letter-spacing: 10px;
-                }
-        
-                button{
-                    border: 1px solid white;
-                    background-color: transparent;
-                    padding: 8px 70px;
-                    color: white;
-                    transition: 0.3s;
-    
-                    &:hover{
-                        box-shadow: 0 0 6px 3px rgb(239, 239, 211);
+            
+                .hero-img{
+                    text-align: center;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+
+                    .main{
+                        margin-bottom: 10%;
+                        img{
+                            width: 50%;
+                        }
                     }
-                }
-            }    
+
+                    .name{
+                        img{
+                            width: 35%;
+                        }
+                    }        
+                }    
+            }
         }
-
     }
-
 }
 </style>
