@@ -38,26 +38,25 @@ export default {
     <div class="bg">
         <div class="container">
             <div class="row d-flex align-items-center py-5">
-                    
-                    <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-right">
-                        <div class="hero-about">
-                            <img src="../../public/img/gv-lake.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 bg-copy" data-aos="fade-left">
-                        <div class="copy">
-                            <h1>#goodvibesab
-                            </h1>
-                            <form class="form d-none">
-                                <router-link :to="{name: 'thank-you'}" class="text-center">
-                                    <button class="submit">
-                                        Invia
-                                    </button>
-                                </router-link>
-                            </form>
-                        </div>
+                <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-right">
+                    <div class="hero-about">
+                        <img src="../../public/img/gv-lake.png" alt="">
                     </div>
                 </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 bg-copy" data-aos="fade-left">
+                    <div class="copy">
+                        <h1>#goodvibesab
+                        </h1>
+                        <form class="form d-none">
+                            <router-link :to="{name: 'thank-you'}" class="text-center">
+                                <button class="submit">
+                                    Invia
+                                </button>
+                            </router-link>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </template>
