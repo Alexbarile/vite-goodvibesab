@@ -28,6 +28,8 @@ export default{
                                 <img :src="getImagePath(i.label)" alt="candles">
                             </div>
                         </div> -->
+                    
+                    <!-- CAROUSEL 1 -->
 
                     <div class="background-red">
                         <div class="container">
@@ -44,6 +46,7 @@ export default{
                                 <input type="radio" name="slides" id="slide-4">
                                 <input type="radio" name="slides" id="slide-5">
                                 <input type="radio" name="slides" id="slide-6">
+                                
                                 <ul class="carousel__slides">
                                     <li class="carousel__slide">
                                         <figure>
@@ -51,8 +54,8 @@ export default{
                                                 <img src="https://picsum.photos/id/1041/800/450" alt="">
                                             </div>
                                             <figcaption>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                <span class="credit">Photo: Tim Marshall</span>
+                                                GOOD VIBES in Foggia
+                                                <span class="credit">Video: Alessandro Barile</span>
                                             </figcaption>
                                         </figure>
                                     </li>
@@ -62,7 +65,7 @@ export default{
                                                 <img src="https://picsum.photos/id/1043/800/450" alt="">
                                             </div>
                                             <figcaption>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                prova
                                                 <span class="credit">Photo: Christian Joudrey</span>                            
                                             </figcaption>
                                         </figure>
@@ -136,7 +139,6 @@ export default{
                                         <div>
                                             <label for="slide-1"><img src="https://picsum.photos/id/1041/150/150" alt=""></label>
                                         </div>
-
                                         <div>
                                             <label for="slide-1"><img src="https://picsum.photos/id/1041/150/150" alt=""></label>
                                         </div>
@@ -146,17 +148,18 @@ export default{
                                     </div>
                                 </div>  
                             </div>
-                        </div>
+                        </div> 
+                    </div>
 
-
-                        <!-- SLIDER 1 -->
-
-                        <!-- <div class="container">
+                    <!-- CAROUSEL 2 -->
+                    
+                    <!-- <div class="background-red">
+                        <div class="container">
                             <input type="radio" name="slider" id="item-1" checked>
                             <input type="radio" name="slider" id="item-2">
                             <input type="radio" name="slider" id="item-3">
                             <input type="radio" name="slider" id="item-4">
-
+    
                             <div class="cards">
                                 <label class="card-item" for="item-1" id="song-1">
                                     <video autoplay playsinline preload muted loop>
@@ -174,10 +177,8 @@ export default{
                                     </video>
                                 </label>
                             </div>
-                        
                             <div class="player">
                                 <div class="upper-part">
-                                    
                                     <div class="info-area" id="test">
                                         <label class="song-info" id="song-info-1">
                                             <div class="title">GOOD VIBES in Foggia</div>
@@ -200,10 +201,10 @@ export default{
                                     </div>
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
+                    </div> -->
 
 
-                    </div>
                 </div>
             </div>
         </div>
@@ -245,7 +246,7 @@ section{
                 
                 }
 
-                // SLIDER 2
+                // CAROUSEL 1
 
                 @mixin aspect-ratio($width, $height) {
                     position: relative;
@@ -344,19 +345,23 @@ section{
                         display: block;
                         flex: 1 1 auto;
                         object-fit: cover;
+                        border-radius: 10px;
                     }
                     
                     figcaption {
                         align-self: flex-end;
-                        padding: 20px 20px 0 20px;
+                        padding: 15px;
                         flex: 0 0 auto;
                         width: 25%;
                         min-width: 150px;
+                        background-color: white;
+                        border-radius: 10px;
+                        margin-left: 10px;
                     }
                     
                     .credit {
-                        margin-top: 1rem;
-                        color: rgba(0, 0, 0, 0.5);
+                        margin-top: 5px;
+                        color: #c6c5c6;
                         display: block;        
                     }
                     
@@ -384,7 +389,8 @@ section{
                 }
             
 
-                // SLIDER 1
+                // CAROUSEL 2
+                
 
             //     input[type=radio] {
             //         display: none;
@@ -464,8 +470,8 @@ section{
             //         transform: translateY(-80px);
             //     }
                
-            
             //     // INFO VIDEO
+
             //     .player {
             //         background-color: #fff;
             //         border-radius: 8px;
