@@ -40,18 +40,23 @@ export default{
                                 <input type="radio" name="slides" id="slide-4">
                                 <input type="radio" name="slides" id="slide-5">
                                 <input type="radio" name="slides" id="slide-6">
-                                <input type="radio" name="slides" checked="checked" id="slide-1">
-                                <input type="radio" name="slides" id="slide-2">
-                                <input type="radio" name="slides" id="slide-3">
-                                <input type="radio" name="slides" id="slide-4">
-                                <input type="radio" name="slides" id="slide-5">
-                                <input type="radio" name="slides" id="slide-6">
+                                <input type="radio" name="slides" id="slide-7">
+                                <input type="radio" name="slides" id="slide-8">
+                                <input type="radio" name="slides" id="slide-9">
+                                <input type="radio" name="slides" id="slide-10">
+                                <input type="radio" name="slides" id="slide-11">
+                                <input type="radio" name="slides" id="slide-12">
+                                <input type="radio" name="slides" id="slide-13">
+                                <input type="radio" name="slides" id="slide-14">
                                 
                                 <ul class="carousel__slides">
                                     <li class="carousel__slide">
                                         <figure>
                                             <div>
-                                                <img src="https://picsum.photos/id/1041/800/450" alt="">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Dolomiti).mp4" type="video/mp4">
+                                                </video>
+                                                <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
                                             </div>
                                             <figcaption>
                                                 GOOD VIBES in Foggia
@@ -62,89 +67,290 @@ export default{
                                     <li class="carousel__slide">
                                         <figure>
                                             <div>
-                                                <img src="https://picsum.photos/id/1043/800/450" alt="">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Bormio).mp4" type="video/mp4">
+                                                </video>
+                                                <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
                                             </div>
                                             <figcaption>
-                                                prova
-                                                <span class="credit">Photo: Christian Joudrey</span>                            
+                                                GOOD VIBES in Foggia
+                                                <span class="credit">Video: Alessandro Barile</span>
                                             </figcaption>
                                         </figure>
                                     </li>
                                     <li class="carousel__slide">
                                         <figure>
                                             <div>
-                                                <img src="https://picsum.photos/id/1044/800/450" alt="">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Parigi).mp4" type="video/mp4">
+                                                </video>
+                                                <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
                                             </div>
                                             <figcaption>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                <span class="credit">Photo: Steve Carter</span>                            
+                                                GOOD VIBES in Foggia
+                                                <span class="credit">Video: Alessandro Barile</span>
                                             </figcaption>
                                         </figure>
                                     </li>
                                     <li class="carousel__slide">
                                         <figure>
                                             <div>
-                                                <img src="https://picsum.photos/id/1045/800/450" alt="">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Isole Tremiti).mp4" type="video/mp4">
+                                                </video>
+                                                <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
                                             </div>
                                             <figcaption>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                <span class="credit">Photo: Aleksandra Boguslawska</span>                            
+                                                GOOD VIBES in Foggia
+                                                <span class="credit">Video: Alessandro Barile</span>
                                             </figcaption>
                                         </figure>
                                     </li>
                                     <li class="carousel__slide">
                                         <figure>
                                             <div>
-                                                <img src="https://picsum.photos/id/1049/800/450" alt="">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Lerici).mp4" type="video/mp4">
+                                                </video>
+                                                <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
                                             </div>
                                             <figcaption>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                <span class="credit">Photo: Rosan Harmens</span>                            
+                                                GOOD VIBES in Foggia
+                                                <span class="credit">Video: Alessandro Barile</span>
                                             </figcaption>
                                         </figure>
                                     </li>
                                     <li class="carousel__slide">
                                         <figure>
                                             <div>
-                                                <img src="https://picsum.photos/id/1052/800/450" alt="">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Portofino).mp4" type="video/mp4">
+                                                </video>
+                                                <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
                                             </div>
                                             <figcaption>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                <span class="credit">Photo: Annie Spratt</span>                            
+                                                GOOD VIBES in Foggia
+                                                <span class="credit">Video: Alessandro Barile</span>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li class="carousel__slide">
+                                        <figure>
+                                            <div>
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Malga Bassa).mp4" type="video/mp4">
+                                                </video>
+                                                <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
+                                            </div>
+                                            <figcaption>
+                                                GOOD VIBES in Foggia
+                                                <span class="credit">Video: Alessandro Barile</span>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li class="carousel__slide">
+                                        <figure>
+                                            <div>
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Varenna).mp4" type="video/mp4">
+                                                </video>
+                                                <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
+                                            </div>
+                                            <figcaption>
+                                                GOOD VIBES in Foggia
+                                                <span class="credit">Video: Alessandro Barile</span>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li class="carousel__slide">
+                                        <figure>
+                                            <div>
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Roccaraso).mp4" type="video/mp4">
+                                                </video>
+                                                <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
+                                            </div>
+                                            <figcaption>
+                                                GOOD VIBES in Foggia
+                                                <span class="credit">Video: Alessandro Barile</span>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li class="carousel__slide">
+                                        <figure>
+                                            <div>
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Roma).mp4" type="video/mp4">
+                                                </video>
+                                                <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
+                                            </div>
+                                            <figcaption>
+                                                GOOD VIBES in Foggia
+                                                <span class="credit">Video: Alessandro Barile</span>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li class="carousel__slide">
+                                        <figure>
+                                            <div>
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Venezia).mp4" type="video/mp4">
+                                                </video>
+                                                <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
+                                            </div>
+                                            <figcaption>
+                                                GOOD VIBES in Foggia
+                                                <span class="credit">Video: Alessandro Barile</span>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li class="carousel__slide">
+                                        <figure>
+                                            <div>
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Sirmione).mp4" type="video/mp4">
+                                                </video>
+                                                <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
+                                            </div>
+                                            <figcaption>
+                                                GOOD VIBES in Foggia
+                                                <span class="credit">Video: Alessandro Barile</span>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li class="carousel__slide">
+                                        <figure>
+                                            <div>
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Milano).mp4" type="video/mp4">
+                                                </video>
+                                                <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
+                                            </div>
+                                            <figcaption>
+                                                GOOD VIBES in Foggia
+                                                <span class="credit">Video: Alessandro Barile</span>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li class="carousel__slide">
+                                        <figure>
+                                            <div>
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Silvi Marina).mp4" type="video/mp4">
+                                                </video>
+                                                <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
+                                            </div>
+                                            <figcaption>
+                                                GOOD VIBES in Foggia
+                                                <span class="credit">Video: Alessandro Barile</span>
                                             </figcaption>
                                         </figure>
                                     </li>
                                 </ul>
                                 <div class="carousel__thumbnails mt-3">
                                     <div class="card-single">
+                                        <!-- <div>
+                                            <label for="slide-2"><img src="https://picsum.photos/id/1043/150/150" alt=""></label>
+                                        </div> -->
                                         <div>
                                             <label for="slide-1">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Dolomiti).mp4" type="video/mp4">
+                                                </video>
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <label for="slide-2">
                                                 <video autoplay playsinline preload muted loop>
                                                     <source src="../../public/video/VIDEO SONG (Bormio).mp4" type="video/mp4">
                                                 </video>
                                             </label>
                                         </div>
                                         <div>
-                                            <label for="slide-2"><img src="https://picsum.photos/id/1043/150/150" alt=""></label>
+                                            <label for="slide-3">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Parigi).mp4" type="video/mp4">
+                                                </video>
+                                            </label>
                                         </div>
                                         <div>
-                                            <label for="slide-1"><img src="https://picsum.photos/id/1041/150/150" alt=""></label>
+                                            <label for="slide-4">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Isole Tremiti).mp4" type="video/mp4">
+                                                </video>
+                                            </label>
                                         </div>
                                         <div>
-                                            <label for="slide-1"><img src="https://picsum.photos/id/1041/150/150" alt=""></label>
+                                            <label for="slide-5">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Lerici).mp4" type="video/mp4">
+                                                </video>
+                                            </label>
                                         </div>
                                         <div>
-                                            <label for="slide-1"><img src="https://picsum.photos/id/1041/150/150" alt=""></label>
+                                            <label for="slide-6">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Portofino).mp4" type="video/mp4">
+                                                </video>
+                                            </label>
                                         </div>
                                         <div>
-                                            <label for="slide-1"><img src="https://picsum.photos/id/1041/150/150" alt=""></label>
+                                            <label for="slide-7">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Malga Bassa).mp4" type="video/mp4">
+                                                </video>
+                                            </label>
                                         </div>
                                         <div>
-                                            <label for="slide-1"><img src="https://picsum.photos/id/1041/150/150" alt=""></label>
+                                            <label for="slide-8">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Varenna).mp4" type="video/mp4">
+                                                </video>
+                                            </label>
                                         </div>
                                         <div>
-                                            <label for="slide-1"><img src="https://picsum.photos/id/1041/150/150" alt=""></label>
+                                            <label for="slide-9">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Roccaraso).mp4" type="video/mp4">
+                                                </video>
+                                            </label>
                                         </div>
+                                        <div>
+                                            <label for="slide-10">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Roma).mp4" type="video/mp4">
+                                                </video>
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <label for="slide-11">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Venezia).mp4" type="video/mp4">
+                                                </video>
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <label for="slide-12">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Sirmione).mp4" type="video/mp4">
+                                                </video>
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <label for="slide-13">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Milano).mp4" type="video/mp4">
+                                                </video>
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <label for="slide-14">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Silvi Marina).mp4" type="video/mp4">
+                                                </video>
+                                            </label>
+                                        </div>
+                                        
                                     </div>
                                 </div>  
                             </div>
@@ -221,11 +427,12 @@ section{
 
         .row{
             width: 100%;
+            height: 100%;
             margin: 0 auto;
 
             .col{
                 padding: 0 !important;
-                height: 90vh;
+                height: 100%;
             
                 .background-red {
                     margin: 0;
@@ -252,7 +459,7 @@ section{
                     position: relative;
                     
                     &:before {
-                        display: block;
+                        // display: block;
                         content: "";
                         width: 100%;
                         padding-top: ($height / $width) * 100%;
@@ -339,14 +546,25 @@ section{
                     div {
                         @include aspect-ratio(3, 2);
                         width: 100%;
+                        height: 830px;
+                    }
+
+
+                    // SEZIONE VIDEO
+            
+                    video {
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 10px;
+                        object-fit: cover;
                     }
                     
-                    img {
-                        display: block;
-                        flex: 1 1 auto;
-                        object-fit: cover;
-                        border-radius: 10px;
-                    }
+                    // img {
+                    //     display: block;
+                    //     flex: 1 1 auto;
+                    //     object-fit: cover;
+                    //     border-radius: 10px;
+                    // }
                     
                     figcaption {
                         align-self: flex-end;
