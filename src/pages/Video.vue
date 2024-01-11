@@ -48,12 +48,22 @@ export default{
                                 <input type="radio" name="slides" id="slide-12">
                                 <input type="radio" name="slides" id="slide-13">
                                 <input type="radio" name="slides" id="slide-14">
+                                <input type="radio" name="slides" id="slide-15">
+                                <input type="radio" name="slides" id="slide-16">
+                                <input type="radio" name="slides" id="slide-17">
+                                <input type="radio" name="slides" id="slide-18">
+                                <input type="radio" name="slides" id="slide-19">
+                                <input type="radio" name="slides" id="slide-20">
+                                <input type="radio" name="slides" id="slide-21">
+                                <input type="radio" name="slides" id="slide-22">
+                                <input type="radio" name="slides" id="slide-23">
+                                <input type="radio" name="slides" id="slide-24">
                                 
-                                <ul class="carousel__slides">
+                                <ul class="carousel__slides" data-aos="fade-right">
                                     <li class="carousel__slide">
                                         <figure>
                                             <div>
-                                                <video autoplay playsinline preload muted loop>
+                                                <video controls playsinline preload muted loop>
                                                     <source src="../../public/video/VIDEO SONG (Dolomiti).mp4" type="video/mp4">
                                                 </video>
                                                 <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
@@ -67,7 +77,7 @@ export default{
                                     <li class="carousel__slide">
                                         <figure>
                                             <div>
-                                                <video autoplay playsinline preload muted loop>
+                                                <video controls playsinline preload muted loop>
                                                     <source src="../../public/video/VIDEO SONG (Bormio).mp4" type="video/mp4">
                                                 </video>
                                                 <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
@@ -81,7 +91,7 @@ export default{
                                     <li class="carousel__slide">
                                         <figure>
                                             <div>
-                                                <video autoplay playsinline preload muted loop>
+                                                <video controls playsinline preload muted loop>
                                                     <source src="../../public/video/VIDEO SONG (Parigi).mp4" type="video/mp4">
                                                 </video>
                                                 <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
@@ -95,7 +105,7 @@ export default{
                                     <li class="carousel__slide">
                                         <figure>
                                             <div>
-                                                <video autoplay playsinline preload muted loop>
+                                                <video controls playsinline preload muted loop>
                                                     <source src="../../public/video/VIDEO SONG (Isole Tremiti).mp4" type="video/mp4">
                                                 </video>
                                                 <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
@@ -109,7 +119,7 @@ export default{
                                     <li class="carousel__slide">
                                         <figure>
                                             <div>
-                                                <video autoplay playsinline preload muted loop>
+                                                <video controls playsinline preload muted loop>
                                                     <source src="../../public/video/VIDEO SONG (Lerici).mp4" type="video/mp4">
                                                 </video>
                                                 <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
@@ -123,7 +133,7 @@ export default{
                                     <li class="carousel__slide">
                                         <figure>
                                             <div>
-                                                <video autoplay playsinline preload muted loop>
+                                                <video controls playsinline preload muted loop>
                                                     <source src="../../public/video/VIDEO SONG (Portofino).mp4" type="video/mp4">
                                                 </video>
                                                 <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
@@ -137,7 +147,7 @@ export default{
                                     <li class="carousel__slide">
                                         <figure>
                                             <div>
-                                                <video autoplay playsinline preload muted loop>
+                                                <video controls playsinline preload muted loop>
                                                     <source src="../../public/video/VIDEO SONG (Malga Bassa).mp4" type="video/mp4">
                                                 </video>
                                                 <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
@@ -151,7 +161,7 @@ export default{
                                     <li class="carousel__slide">
                                         <figure>
                                             <div>
-                                                <video autoplay playsinline preload muted loop>
+                                                <video controls playsinline preload muted loop>
                                                     <source src="../../public/video/VIDEO SONG (Varenna).mp4" type="video/mp4">
                                                 </video>
                                                 <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
@@ -165,7 +175,7 @@ export default{
                                     <li class="carousel__slide">
                                         <figure>
                                             <div>
-                                                <video autoplay playsinline preload muted loop>
+                                                <video controls playsinline preload muted loop>
                                                     <source src="../../public/video/VIDEO SONG (Roccaraso).mp4" type="video/mp4">
                                                 </video>
                                                 <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
@@ -179,7 +189,7 @@ export default{
                                     <li class="carousel__slide">
                                         <figure>
                                             <div>
-                                                <video autoplay playsinline preload muted loop>
+                                                <video controls playsinline preload muted loop>
                                                     <source src="../../public/video/VIDEO SONG (Roma).mp4" type="video/mp4">
                                                 </video>
                                                 <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
@@ -193,7 +203,7 @@ export default{
                                     <li class="carousel__slide">
                                         <figure>
                                             <div>
-                                                <video autoplay playsinline preload muted loop>
+                                                <video controls playsinline preload muted loop>
                                                     <source src="../../public/video/VIDEO SONG (Venezia).mp4" type="video/mp4">
                                                 </video>
                                                 <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
@@ -207,7 +217,7 @@ export default{
                                     <li class="carousel__slide">
                                         <figure>
                                             <div>
-                                                <video autoplay playsinline preload muted loop>
+                                                <video controls playsinline preload muted loop>
                                                     <source src="../../public/video/VIDEO SONG (Sirmione).mp4" type="video/mp4">
                                                 </video>
                                                 <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
@@ -221,7 +231,7 @@ export default{
                                     <li class="carousel__slide">
                                         <figure>
                                             <div>
-                                                <video autoplay playsinline preload muted loop>
+                                                <video controls playsinline preload muted loop>
                                                     <source src="../../public/video/VIDEO SONG (Milano).mp4" type="video/mp4">
                                                 </video>
                                                 <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
@@ -235,7 +245,7 @@ export default{
                                     <li class="carousel__slide">
                                         <figure>
                                             <div>
-                                                <video autoplay playsinline preload muted loop>
+                                                <video controls playsinline preload muted loop>
                                                     <source src="../../public/video/VIDEO SONG (Silvi Marina).mp4" type="video/mp4">
                                                 </video>
                                                 <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
@@ -247,7 +257,10 @@ export default{
                                         </figure>
                                     </li>
                                 </ul>
-                                <div class="carousel__thumbnails mt-3">
+                                <div>
+                                    <h1 class="m-0 py-3">Moments</h1>
+                                </div>
+                                <div class="carousel__thumbnails" data-aos="fade-left">
                                     <div class="card-single">
                                         <!-- <div>
                                             <label for="slide-2"><img src="https://picsum.photos/id/1043/150/150" alt=""></label>
@@ -351,6 +364,93 @@ export default{
                                             </label>
                                         </div>
                                         
+                                    </div>
+                                </div>
+                                <div>
+                                    <h1 class="m-0 py-3">Evenings</h1>
+                                </div>
+                                <div class="carousel__thumbnails mt-3" data-aos="fade-left">
+                                    <div class="card-single">
+                                        <!-- <div>
+                                            <label for="slide-2"><img src="https://picsum.photos/id/1043/150/150" alt=""></label>
+                                        </div> -->
+                                        <div>
+                                            <label for="slide-15">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Dolomiti).mp4" type="video/mp4">
+                                                </video>
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <label for="slide-16">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Bormio).mp4" type="video/mp4">
+                                                </video>
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <label for="slide-17">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Parigi).mp4" type="video/mp4">
+                                                </video>
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <label for="slide-18">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Isole Tremiti).mp4" type="video/mp4">
+                                                </video>
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <label for="slide-19">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Lerici).mp4" type="video/mp4">
+                                                </video>
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <label for="slide-20">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Portofino).mp4" type="video/mp4">
+                                                </video>
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <label for="slide-21">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Malga Bassa).mp4" type="video/mp4">
+                                                </video>
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <label for="slide-22">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Varenna).mp4" type="video/mp4">
+                                                </video>
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <label for="slide-23">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Roccaraso).mp4" type="video/mp4">
+                                                </video>
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <label for="slide-24">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Roma).mp4" type="video/mp4">
+                                                </video>
+                                            </label>
+                                        </div>
+                                        <div>
+                                            <label for="slide-25">
+                                                <video autoplay playsinline preload muted loop>
+                                                    <source src="../../public/video/VIDEO SONG (Roma).mp4" type="video/mp4">
+                                                </video>
+                                            </label>
+                                        </div>
                                     </div>
                                 </div>  
                             </div>
@@ -588,6 +688,11 @@ section{
                     }
                 }
 
+                h1{
+                    color: white;
+                    font-weight: 700;
+                }
+
                 .carousel__thumbnails{
                     overflow-x: scroll;
                     width: 100%;
@@ -599,6 +704,7 @@ section{
                             width: 150px;
                             height: 150px;
                             object-fit: cover;
+                            border-radius: 10px;
                         }
                         label{
                             margin-right: 10px;
