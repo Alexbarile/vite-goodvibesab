@@ -256,6 +256,20 @@ export default{
                                             </figcaption>
                                         </figure>
                                     </li>
+                                    <li class="carousel__slide">
+                                        <figure>
+                                            <div>
+                                                <video controls playsinline preload muted loop>
+                                                    <source src="../../public/video/baiatrabucchi1.mp4" type="video/mp4">
+                                                </video>
+                                                <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
+                                            </div>
+                                            <figcaption>
+                                                GOOD VIBES in Foggia
+                                                <span class="credit">Video: Alessandro Barile</span>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
                                 </ul>
                                 <div>
                                     <h1 class="m-0 py-3">Moments</h1>
@@ -363,7 +377,6 @@ export default{
                                                 </video>
                                             </label>
                                         </div>
-                                        
                                     </div>
                                 </div>
                                 <div>
@@ -377,77 +390,77 @@ export default{
                                         <div>
                                             <label for="slide-15">
                                                 <video autoplay playsinline preload muted loop>
-                                                    <source src="../../public/video/VIDEO SONG (Dolomiti).mp4" type="video/mp4">
+                                                    <source src="../../public/video/baiatrabucchi1.mp4" type="video/mp4">
                                                 </video>
                                             </label>
                                         </div>
                                         <div>
                                             <label for="slide-16">
                                                 <video autoplay playsinline preload muted loop>
-                                                    <source src="../../public/video/VIDEO SONG (Bormio).mp4" type="video/mp4">
+                                                    <source src="../../public/video/baiatrabucchi2.mp4" type="video/mp4">
                                                 </video>
                                             </label>
                                         </div>
                                         <div>
                                             <label for="slide-17">
                                                 <video autoplay playsinline preload muted loop>
-                                                    <source src="../../public/video/VIDEO SONG (Parigi).mp4" type="video/mp4">
+                                                    <source src="../../public/video/boscoverticale.mp4" type="video/mp4">
                                                 </video>
                                             </label>
                                         </div>
                                         <div>
                                             <label for="slide-18">
                                                 <video autoplay playsinline preload muted loop>
-                                                    <source src="../../public/video/VIDEO SONG (Isole Tremiti).mp4" type="video/mp4">
+                                                    <source src="../../public/video/onthebeach.mp4" type="video/mp4">
                                                 </video>
                                             </label>
                                         </div>
                                         <div>
                                             <label for="slide-19">
                                                 <video autoplay playsinline preload muted loop>
-                                                    <source src="../../public/video/VIDEO SONG (Lerici).mp4" type="video/mp4">
+                                                    <source src="../../public/video/peschici-day.mp4" type="video/mp4">
                                                 </video>
                                             </label>
                                         </div>
                                         <div>
                                             <label for="slide-20">
                                                 <video autoplay playsinline preload muted loop>
-                                                    <source src="../../public/video/VIDEO SONG (Portofino).mp4" type="video/mp4">
+                                                    <source src="../../public/video/peschici.mp4" type="video/mp4">
                                                 </video>
                                             </label>
                                         </div>
                                         <div>
                                             <label for="slide-21">
                                                 <video autoplay playsinline preload muted loop>
-                                                    <source src="../../public/video/VIDEO SONG (Malga Bassa).mp4" type="video/mp4">
+                                                    <source src="../../public/video/sempione1.mp4" type="video/mp4">
                                                 </video>
                                             </label>
                                         </div>
                                         <div>
                                             <label for="slide-22">
                                                 <video autoplay playsinline preload muted loop>
-                                                    <source src="../../public/video/VIDEO SONG (Varenna).mp4" type="video/mp4">
+                                                    <source src="../../public/video/sempione2.mp4" type="video/mp4">
                                                 </video>
                                             </label>
                                         </div>
                                         <div>
                                             <label for="slide-23">
                                                 <video autoplay playsinline preload muted loop>
-                                                    <source src="../../public/video/VIDEO SONG (Roccaraso).mp4" type="video/mp4">
+                                                    <source src="../../public/video/sunset.mp4" type="video/mp4">
                                                 </video>
                                             </label>
                                         </div>
                                         <div>
                                             <label for="slide-24">
                                                 <video autoplay playsinline preload muted loop>
-                                                    <source src="../../public/video/VIDEO SONG (Roma).mp4" type="video/mp4">
+                                                    <source src="../../public/video/varenna.mp4" type="video/mp4">
                                                 </video>
                                             </label>
                                         </div>
                                         <div>
                                             <label for="slide-25">
                                                 <video autoplay playsinline preload muted loop>
-                                                    <source src="../../public/video/VIDEO SONG (Roma).mp4" type="video/mp4">
+                                                    <source src="../../public/video/yoga.mp4" type="video/mp4">
                                                 </video>
                                             </label>
                                         </div>
@@ -599,6 +612,7 @@ section{
                         padding: 0;
                         position: absolute;
                         
+                        &:nth-of-type(7):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -600%; }
                         &:nth-of-type(6):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -500%; }
                         &:nth-of-type(5):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -400%; }
                         &:nth-of-type(4):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -300%; }
@@ -612,6 +626,9 @@ section{
                         &:nth-of-type(4):checked ~ .carousel__thumbnails li:nth-of-type(4) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
                         &:nth-of-type(5):checked ~ .carousel__thumbnails li:nth-of-type(5) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
                         &:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(6) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
+                        &:nth-of-type(7):checked ~ .carousel__thumbnails li:nth-of-type(7) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
+
+
                     }
                 }
 
