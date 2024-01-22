@@ -58,6 +58,7 @@ export default{
                                 <input type="radio" name="slides" id="slide-22">
                                 <input type="radio" name="slides" id="slide-23">
                                 <input type="radio" name="slides" id="slide-24">
+                                <input type="radio" name="slides" id="slide-25">
                                 
                                 <ul class="carousel__slides" data-aos="fade-right">
                                     <li class="carousel__slide">
@@ -260,7 +261,147 @@ export default{
                                         <figure>
                                             <div>
                                                 <video controls playsinline preload muted loop>
+                                                    <source src="../../public/video/varenna.mp4" type="video/mp4">
+                                                </video>
+                                                <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
+                                            </div>
+                                            <figcaption>
+                                                GOOD VIBES in Foggia
+                                                <span class="credit">Video: Alessandro Barile</span>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li class="carousel__slide">
+                                        <figure>
+                                            <div>
+                                                <video controls playsinline preload muted loop>
+                                                    <source src="../../public/video/peschici.mp4" type="video/mp4">
+                                                </video>
+                                                <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
+                                            </div>
+                                            <figcaption>
+                                                GOOD VIBES in Foggia
+                                                <span class="credit">Video: Alessandro Barile</span>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li class="carousel__slide">
+                                        <figure>
+                                            <div>
+                                                <video controls playsinline preload muted loop>
                                                     <source src="../../public/video/baiatrabucchi1.mp4" type="video/mp4">
+                                                </video>
+                                                <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
+                                            </div>
+                                            <figcaption>
+                                                GOOD VIBES in Foggia
+                                                <span class="credit">Video: Alessandro Barile</span>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li class="carousel__slide">
+                                        <figure>
+                                            <div>
+                                                <video controls playsinline preload muted loop>
+                                                    <source src="../../public/video/baiatrabucchi2.mp4" type="video/mp4">
+                                                </video>
+                                                <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
+                                            </div>
+                                            <figcaption>
+                                                GOOD VIBES in Foggia
+                                                <span class="credit">Video: Alessandro Barile</span>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li class="carousel__slide">
+                                        <figure>
+                                            <div>
+                                                <video controls playsinline preload muted loop>
+                                                    <source src="../../public/video/onthebeach.mp4" type="video/mp4">
+                                                </video>
+                                                <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
+                                            </div>
+                                            <figcaption>
+                                                GOOD VIBES in Foggia
+                                                <span class="credit">Video: Alessandro Barile</span>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li class="carousel__slide">
+                                        <figure>
+                                            <div>
+                                                <video controls playsinline preload muted loop>
+                                                    <source src="../../public/video/yoga.mp4" type="video/mp4">
+                                                </video>
+                                                <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
+                                            </div>
+                                            <figcaption>
+                                                GOOD VIBES in Foggia
+                                                <span class="credit">Video: Alessandro Barile</span>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li class="carousel__slide">
+                                        <figure>
+                                            <div>
+                                                <video controls playsinline preload muted loop>
+                                                    <source src="../../public/video/peschici-day.mp4" type="video/mp4">
+                                                </video>
+                                                <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
+                                            </div>
+                                            <figcaption>
+                                                GOOD VIBES in Foggia
+                                                <span class="credit">Video: Alessandro Barile</span>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li class="carousel__slide">
+                                        <figure>
+                                            <div>
+                                                <video controls playsinline preload muted loop>
+                                                    <source src="../../public/video/sunset.mp4" type="video/mp4">
+                                                </video>
+                                                <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
+                                            </div>
+                                            <figcaption>
+                                                GOOD VIBES in Foggia
+                                                <span class="credit">Video: Alessandro Barile</span>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li class="carousel__slide">
+                                        <figure>
+                                            <div>
+                                                <video controls playsinline preload muted loop>
+                                                    <source src="../../public/video/boscoverticale.mp4" type="video/mp4">
+                                                </video>
+                                                <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
+                                            </div>
+                                            <figcaption>
+                                                GOOD VIBES in Foggia
+                                                <span class="credit">Video: Alessandro Barile</span>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li class="carousel__slide">
+                                        <figure>
+                                            <div>
+                                                <video controls playsinline preload muted loop>
+                                                    <source src="../../public/video/sempione2.mp4" type="video/mp4">
+                                                </video>
+                                                <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
+                                            </div>
+                                            <figcaption>
+                                                GOOD VIBES in Foggia
+                                                <span class="credit">Video: Alessandro Barile</span>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li class="carousel__slide">
+                                        <figure>
+                                            <div>
+                                                <video controls playsinline preload muted loop>
+                                                    <source src="../../public/video/sempione1.mp4" type="video/mp4">
                                                 </video>
                                                 <!-- <img src="https://picsum.photos/id/1041/800/450" alt=""> -->
                                             </div>
@@ -382,7 +523,7 @@ export default{
                                 <div>
                                     <h1 class="m-0 py-3">Evenings</h1>
                                 </div>
-                                <div class="carousel__thumbnails mt-3" data-aos="fade-left">
+                                <div class="carousel__thumbnails mt-3" data-aos="fade-right">
                                     <div class="card-single">
                                         <!-- <div>
                                             <label for="slide-2"><img src="https://picsum.photos/id/1043/150/150" alt=""></label>
@@ -390,77 +531,77 @@ export default{
                                         <div>
                                             <label for="slide-15">
                                                 <video autoplay playsinline preload muted loop>
-                                                    <source src="../../public/video/baiatrabucchi1.mp4" type="video/mp4">
+                                                    <source src="../../public/video/varenna.mp4" type="video/mp4">
                                                 </video>
                                             </label>
                                         </div>
                                         <div>
                                             <label for="slide-16">
                                                 <video autoplay playsinline preload muted loop>
-                                                    <source src="../../public/video/baiatrabucchi2.mp4" type="video/mp4">
+                                                    <source src="../../public/video/peschici.mp4" type="video/mp4">
                                                 </video>
                                             </label>
                                         </div>
                                         <div>
                                             <label for="slide-17">
                                                 <video autoplay playsinline preload muted loop>
-                                                    <source src="../../public/video/boscoverticale.mp4" type="video/mp4">
+                                                    <source src="../../public/video/baiatrabucchi1.mp4" type="video/mp4">
                                                 </video>
                                             </label>
                                         </div>
                                         <div>
                                             <label for="slide-18">
                                                 <video autoplay playsinline preload muted loop>
-                                                    <source src="../../public/video/onthebeach.mp4" type="video/mp4">
+                                                    <source src="../../public/video/baiatrabucchi2.mp4" type="video/mp4">
                                                 </video>
                                             </label>
                                         </div>
                                         <div>
                                             <label for="slide-19">
                                                 <video autoplay playsinline preload muted loop>
-                                                    <source src="../../public/video/peschici-day.mp4" type="video/mp4">
+                                                    <source src="../../public/video/onthebeach.mp4" type="video/mp4">
                                                 </video>
                                             </label>
                                         </div>
                                         <div>
                                             <label for="slide-20">
                                                 <video autoplay playsinline preload muted loop>
-                                                    <source src="../../public/video/peschici.mp4" type="video/mp4">
+                                                    <source src="../../public/video/yoga.mp4" type="video/mp4">
                                                 </video>
                                             </label>
                                         </div>
                                         <div>
                                             <label for="slide-21">
                                                 <video autoplay playsinline preload muted loop>
-                                                    <source src="../../public/video/sempione1.mp4" type="video/mp4">
+                                                    <source src="../../public/video/peschici-day.mp4" type="video/mp4">
                                                 </video>
                                             </label>
                                         </div>
                                         <div>
                                             <label for="slide-22">
                                                 <video autoplay playsinline preload muted loop>
-                                                    <source src="../../public/video/sempione2.mp4" type="video/mp4">
+                                                    <source src="../../public/video/sunset.mp4" type="video/mp4">
                                                 </video>
                                             </label>
                                         </div>
                                         <div>
                                             <label for="slide-23">
                                                 <video autoplay playsinline preload muted loop>
-                                                    <source src="../../public/video/sunset.mp4" type="video/mp4">
+                                                    <source src="../../public/video/boscoverticale.mp4" type="video/mp4">
                                                 </video>
                                             </label>
                                         </div>
                                         <div>
                                             <label for="slide-24">
                                                 <video autoplay playsinline preload muted loop>
-                                                    <source src="../../public/video/varenna.mp4" type="video/mp4">
+                                                    <source src="../../public/video/sempione2.mp4" type="video/mp4">
                                                 </video>
                                             </label>
                                         </div>
                                         <div>
                                             <label for="slide-25">
                                                 <video autoplay playsinline preload muted loop>
-                                                    <source src="../../public/video/yoga.mp4" type="video/mp4">
+                                                    <source src="../../public/video/sempione1.mp4" type="video/mp4">
                                                 </video>
                                             </label>
                                         </div>
@@ -612,6 +753,24 @@ section{
                         padding: 0;
                         position: absolute;
                         
+                        &:nth-of-type(25):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -2400%; }
+                        &:nth-of-type(24):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -2300%; }
+                        &:nth-of-type(23):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -2200%; }
+                        &:nth-of-type(22):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -2100%; }
+                        &:nth-of-type(21):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -2000%; }
+                        &:nth-of-type(20):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -1900%; }
+                        &:nth-of-type(19):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -1800%; }
+                        &:nth-of-type(18):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -1700%; }
+                        &:nth-of-type(17):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -1600%; }
+                        &:nth-of-type(16):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -1500%; }
+                        &:nth-of-type(15):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -1400%; }
+                        &:nth-of-type(14):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -1300%; }
+                        &:nth-of-type(13):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -1200%; }
+                        &:nth-of-type(12):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -1100%; }
+                        &:nth-of-type(11):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -1000%; }
+                        &:nth-of-type(10):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -900%; }
+                        &:nth-of-type(9):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -800%; }
+                        &:nth-of-type(8):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -700%; }
                         &:nth-of-type(7):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -600%; }
                         &:nth-of-type(6):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -500%; }
                         &:nth-of-type(5):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -400%; }
@@ -627,6 +786,24 @@ section{
                         &:nth-of-type(5):checked ~ .carousel__thumbnails li:nth-of-type(5) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
                         &:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(6) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
                         &:nth-of-type(7):checked ~ .carousel__thumbnails li:nth-of-type(7) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
+                        &:nth-of-type(8):checked ~ .carousel__thumbnails li:nth-of-type(8) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
+                        &:nth-of-type(9):checked ~ .carousel__thumbnails li:nth-of-type(9) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
+                        &:nth-of-type(10):checked ~ .carousel__thumbnails li:nth-of-type(10) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
+                        &:nth-of-type(11):checked ~ .carousel__thumbnails li:nth-of-type(11) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
+                        &:nth-of-type(12):checked ~ .carousel__thumbnails li:nth-of-type(12) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
+                        &:nth-of-type(13):checked ~ .carousel__thumbnails li:nth-of-type(13) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
+                        &:nth-of-type(14):checked ~ .carousel__thumbnails li:nth-of-type(14) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
+                        &:nth-of-type(15):checked ~ .carousel__thumbnails li:nth-of-type(15) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
+                        &:nth-of-type(16):checked ~ .carousel__thumbnails li:nth-of-type(16) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
+                        &:nth-of-type(17):checked ~ .carousel__thumbnails li:nth-of-type(17) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
+                        &:nth-of-type(18):checked ~ .carousel__thumbnails li:nth-of-type(18) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
+                        &:nth-of-type(19):checked ~ .carousel__thumbnails li:nth-of-type(19) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
+                        &:nth-of-type(20):checked ~ .carousel__thumbnails li:nth-of-type(20) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
+                        &:nth-of-type(21):checked ~ .carousel__thumbnails li:nth-of-type(21) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
+                        &:nth-of-type(22):checked ~ .carousel__thumbnails li:nth-of-type(22) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
+                        &:nth-of-type(23):checked ~ .carousel__thumbnails li:nth-of-type(23) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
+                        &:nth-of-type(24):checked ~ .carousel__thumbnails li:nth-of-type(24) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
+                        &:nth-of-type(25):checked ~ .carousel__thumbnails li:nth-of-type(25) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
 
 
                     }

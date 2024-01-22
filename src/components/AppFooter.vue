@@ -143,7 +143,7 @@ export default{
             <div class="row">
                 <div class="col d-flex justify-content-center">
                     <div>
-                        <p>&#169; 2023 Good Vibes | DJ Alessandro Barile.</p>
+                        <p>&#169; 2024 Good Vibes | DJ Alessandro Barile.</p>
                     </div>
                 </div>
             </div>
